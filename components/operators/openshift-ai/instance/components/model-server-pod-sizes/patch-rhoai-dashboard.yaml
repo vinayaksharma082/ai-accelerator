@@ -28,3 +28,11 @@ spec:
         requests:
           cpu: '6'
           memory: 16Gi
+    - name: Small-Medium
+      resources:
+        limits:
+          cpu: '6'
+          memory: 8Gi
+        requests:
+          cpu: '4'
+          memory: 4Gi
